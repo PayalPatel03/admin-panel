@@ -18,15 +18,43 @@
     border: 1px solid #000;
 }
 
+#sidebar>i{
+    font-size: 2rem;
+    padding: 20px;
+    cursor: pointer;
+}
 
+.logo>i{
+    font-size: 2rem;
+    padding: 10px;
+    cursor: pointer;
+}
+.logo>button{
+    background-color: aliceblue;
+    border: none;
+    /* text-align: center; */
+    cursor: pointer;
+    width: 150px;
+    padding: 10px;  
+}
+.logo{
+    margin: 10px;
+}
+.logo:hover{
+    background-color: aliceblue;
+}
 
 /*main-cont*/
 #main-cont{
     height: 100%;
     width: 80%;
+    background-color: pink;
 }
 
+/*Dashboard*/
+#header>img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
 
-
-
-
+}
