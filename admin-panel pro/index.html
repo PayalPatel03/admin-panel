@@ -7,6 +7,9 @@
     <!---------------font awesome cdn---------->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <!---apex chart css-->
+    <link rel="stylesheet" href="./dist/apexcharts.css">
+
     <!--------------style file linking--------->
     <link rel="stylesheet" href="./style-files/style.css">
 
@@ -46,6 +49,7 @@
                 <i class="fa-solid fa-person-running" style="color: #f70820;"></i>
                 <button for="#Logout">Log Out</button>
             </div>
+            <hr>
             <div class="logo">
                 <i class="fa-brands fa-product-hunt"></i>
                 <button for="#Products">Products</button>
@@ -58,17 +62,73 @@
 
         <div id="main-cont">
             <div id="Dashboard">
-                <header id="header">
-                    <form>
-                        <input type="text" placeholder="Serach"/>
-                    </form>
-                   <span>
-                    <i class="fa-solid fa-bell" style="color: #eaeaec;"></i>
-                    <i class="fa-regular fa-copy" style="color: #eaeaec;"></i>
-                   </span>
-                    <img src="https://cdn.pixabay.com/photo/2018/03/12/20/57/woman-3220835_1280.jpg"/>
-                  
-                </header>
+                <div id="bar">
+                    <header id="header">
+                        <form>
+                            <input type="text" placeholder="Serach"/>
+                        </form>
+                       <span>
+                        <i class="fa-solid fa-bell" style="color: white;"></i>
+                        <i class="fa-regular fa-copy" style="color: white;"></i>
+                       </span>
+                        <img src="https://cdn.pixabay.com/photo/2018/03/12/20/57/woman-3220835_1280.jpg"/> 
+                    </header>
+                    <div class="d-cont">
+                        <h2>Default</h2>
+                        <span>
+                            <button>New</button>
+                        <button>Filtres</button>
+                        </span>
+                    </div>
+
+                    <div id="box-1">
+                        <h5>TOTAL TRAFFIC</h5>
+                        <P>350,675
+                            <i class="fa-regular fa-thumbs-up" style="color: #f70820;"></i>
+                        </P>
+                        <span>
+                            <i class="fa-solid fa-arrow-up" style="color: #1af50a;">3.48%</i>
+                            <span>Since last month</span> 
+                        </span>
+                    </div>
+                   
+
+                <div id="box-2">
+                    <h5>NEW USERS</h5>
+                    <p>2,356
+                        <i class="fa-solid fa-chart-pie" style="color: #f7531d;"></i>
+                    </p>
+                    <span>
+                        <i class="fa-solid fa-arrow-up" style="color: #1af50a;">3.48%</i>
+                        <span>Since last month</span>
+                    </span>
+                </div>
+
+                <div id="box-3">
+                    <h5>SALES</h5>
+                    <p>924
+                        <i class="fa-solid fa-money-bill-1-wave" style="color: #073b14;"></i>
+                    </p>
+                    <span>
+                        <i class="fa-solid fa-arrow-up" style="color: #1af50a;">3.48%</i>
+                        <span>Since last month</span>
+                    </span>
+                </div>
+
+                <div id="box-4">
+                    <h5>PEFORMANCE</h5>
+                    <p>49,64%
+                        <i class="fa-solid fa-chart-simple" style="color: blue;"></i>
+                    </p>
+                    <span>
+                        <i class="fa-solid fa-arrow-up" style="color: #1af50a;">3.48%</i>
+                        <span>Since last month</span>
+                    </span>
+                </div>
+                <div id="chart-1">
+
+                </div>
+            </div>
             </div>
             <div id="Icons">Hello icons</div>
             <div id="Google">Hello gooogle</div>
@@ -88,6 +148,9 @@
 
     <!-------------jquery cdn------------->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!------apex chart-------------->
+    <script src="./dist/apexcharts.min.js"></script>
 
     <!-----------script file linking----->
     <script src="./script-files/script.js"></script>
