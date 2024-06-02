@@ -146,7 +146,7 @@ span>button:hover{
     width: 250px;
     position: absolute;
     top: 145px;
-    left: 600px;
+    left: 650px;
 }
 #box-2>h5{
     padding: 10px;
@@ -167,7 +167,7 @@ span>button:hover{
     width: 250px;
     position: absolute;
     top: 145px;
-    left: 900px;
+    left: 950px;
 }
 #box-3>h5{
     padding: 10px;
@@ -188,7 +188,7 @@ span>button:hover{
     width: 250px;
     position: absolute;
     top: 145px;
-    right: 50px;
+    right: 0px;
 }
 #box-4>h5{
     padding: 10px;
@@ -220,9 +220,26 @@ span>button:hover{
     width: 400px;
     background-color: beige;
 }
-/*chart-1-cont*/
-#chart-1-cont{
-   display: flex;
-   position: absolute;
-   bottom: 0px;
+/*chart-1 cont*/
+#title{
+    position: absolute;
+    bottom: -20px;
+    left: 450px;
+    display: flex;
+    justify-content: space-around;
+    gap: 350px;
 }
+#title>h5{
+    padding: 10px;
+}
+#title>button{
+    padding: 5px;
+    background-color: blue;
+}
+.c-1-table>table{
+    position: absolute;
+    bottom: 100px;
+   
+ 
+}
+
