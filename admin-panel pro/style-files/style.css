@@ -17,11 +17,9 @@
     width: 20%;
     /* height: 100%;
     width: 354px; */
-    position: fixed;
+    /* position: fixed; */
     left:0;
     top:0;
-
-
 }
 
 #sidebar>i{
@@ -51,9 +49,10 @@
 
 /*------------------------------main-cont------------------------*/
 #main-cont{
-    margin-left: 345px;
     height: 100%;
-    width: 80%;
+    width: 100%;
+    overflow-x: scroll;
+    position: relative;
     
 }
 
@@ -146,7 +145,7 @@ span>button:hover{
     width: 250px;
     position: absolute;
     top: 145px;
-    left: 650px;
+    left:350px;
 }
 #box-2>h5{
     padding: 10px;
@@ -167,7 +166,7 @@ span>button:hover{
     width: 250px;
     position: absolute;
     top: 145px;
-    left: 950px;
+    left: 650px;
 }
 #box-3>h5{
     padding: 10px;
@@ -188,7 +187,7 @@ span>button:hover{
     width: 250px;
     position: absolute;
     top: 145px;
-    right: 0px;
+    left: 950px;
 }
 #box-4>h5{
     padding: 10px;
@@ -215,31 +214,57 @@ span>button:hover{
     margin: 20px;
     position: absolute;
     height: 400px;
-    right: 50px;
+    left: 750px;
     top: 300px;
     width: 400px;
     background-color: beige;
 }
-/*chart-1 cont*/
-#title{
-    position: absolute;
-    bottom: -20px;
-    left: 450px;
+
+/*ICONS*/
+.head{
+    height: 400px;
+    width: 100%;
+    background-color: #4664af;
     display: flex;
-    justify-content: space-around;
-    gap: 350px;
+    justify-content: space-between;
+    gap: 30px;
 }
-#title>h5{
-    padding: 10px;
+.head>i{
+    margin: 20px;
+    font-size: 2rem;
 }
-#title>button{
-    padding: 5px;
-    background-color: blue;
+.bell>span>i{
+    font-size: 1rem;
+    margin: 10px;
+    padding: 20px;
+    font-size:1.5rem;
+    cursor: pointer;
 }
-.c-1-table>table{
-    position: absolute;
-    bottom: 100px;
-   
- 
+.bell>span>i:hover{
+    opacity: 0.5;
 }
+.bell>span>img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 20px;
+}
+/*all-icons*/
+.all-icons{
+    height: 400px;
+    background-color: beige; 
+}
+#logos>table{
+    margin: 20px;
+    word-spacing: 200px;
+    font-size: 3rem;
+    line-height: 80px;
+    cursor: pointer;
+    color: #4664af;
+}
+
+
+
+
 

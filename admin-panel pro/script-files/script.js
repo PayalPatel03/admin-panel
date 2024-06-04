@@ -1,8 +1,14 @@
 $("#Icons,#Google,#Profile,#Table,#Register,#Logout,#Products,#Docs").hide();
 
+
 $(".logo>button").on("click",function(){
     $("#Dashboard,#Icons,#Google,#Profile,#Table,#Register,#Logout,#Products,#Docs").hide();
     $($(this).attr("for")).show();
+})
+
+
+$(".fa-list").on("click",function(){
+  $("#sidebar").toggle();
 })
 
 //chart-1
