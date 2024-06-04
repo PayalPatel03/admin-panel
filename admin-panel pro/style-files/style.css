@@ -264,6 +264,14 @@ span>button:hover{
     color: #4664af;
 }
 
+/*Google*/
+#map{
+    position: absolute;
+    top: 200px;
+    left: 350px;
+
+}
+
 
 
 
