@@ -88,6 +88,96 @@ var options = {
   var chart = new ApexCharts(document.querySelector("#chart-2"), options);
   chart.render();
 
+  //chart-3
+  var options = {
+    series: [{
+    data: [44, 55, 41, 64, 22, 43, 21]
+  }, {
+    data: [53, 32, 33, 52, 13, 44, 32]
+  }],
+    chart: {
+    type: 'bar',
+    height: 430
+  },
+  plotOptions: {
+    bar: {
+      horizontal: true,
+      dataLabels: {
+        position: 'top',
+      },
+    }
+  },
+  dataLabels: {
+    enabled: true,
+    offsetX: -6,
+    style: {
+      fontSize: '12px',
+      colors: ['#fff']
+    }
+  },
+  stroke: {
+    show: true,
+    width: 1,
+    colors: ['#fff']
+  },
+  tooltip: {
+    shared: true,
+    intersect: false
+  },
+  xaxis: {
+    categories: [2001, 2002, 2003, 2004, 2005, 2006, 2007],
+  },
+  };
+
+  var chart = new ApexCharts(document.querySelector("#chart-3"), options);
+  chart.render();
+
+  //chart-4
+  
+  var options = {
+    series: [44, 55, 41, 17, 15],
+    chart: {
+    width: 380,
+    type: 'donut',
+  },
+  plotOptions: {
+    pie: {
+      startAngle: -90,
+      endAngle: 270
+    }
+  },
+  dataLabels: {
+    enabled: false
+  },
+  fill: {
+    type: 'gradient',
+  },
+  legend: {
+    formatter: function(val, opts) {
+      return val + " - " + opts.w.globals.series[opts.seriesIndex]
+    }
+  },
+  title: {
+    text: 'Gradient Donut with custom Start-angle'
+  },
+  responsive: [{
+    breakpoint: 480,
+    options: {
+      chart: {
+        width: 200
+      },
+      legend: {
+        position: 'bottom'
+      }
+    }
+  }]
+  };
+
+  var chart = new ApexCharts(document.querySelector("#chart-4"), options);
+  chart.render();
+
+
+
 
 
 

@@ -79,6 +79,7 @@
 #header>i{
     margin: 20px;
     font-size: 2rem;
+    cursor: pointer;
 }
 
 
@@ -93,6 +94,7 @@ input{
     word-spacing: 20px;
     cursor: pointer;
 }
+
 
 #header>span>i:hover{
     opacity: 0.5;
@@ -219,6 +221,23 @@ span>button:hover{
     width: 400px;
     background-color: beige;
 }
+#chart-3{
+    position: absolute;
+    top: 800px;
+    height: 400px;
+    width: 550px;
+    margin: 20px;
+    border-radius: 20px;
+    background-color: beige;
+}
+#chart-4{
+    position: absolute;
+    top: 800px;
+    border-radius: 20px;
+    left: 750px;
+    background-color: beige;
+    height: 400px;
+}
 
 /*ICONS*/
 .head{
@@ -232,6 +251,7 @@ span>button:hover{
 .head>i{
     margin: 20px;
     font-size: 2rem;
+    cursor: pointer;
 }
 .bell>span>i{
     font-size: 1rem;
@@ -271,6 +291,119 @@ span>button:hover{
     left: 350px;
 
 }
+/*profile*/
+
+#pro{
+    background-color:skyblue;
+    height: 400px;
+    width: 100%;  
+}
+
+#pro>h1{
+padding: 20px;
+font-size: 4rem;
+}
+
+#pro>p{
+    padding: 10px;
+    font-size: 1rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#pro>button{
+    padding: 10px;
+    margin: 20px;
+    color: blue;
+    border: none;
+    cursor: pointer;
+}
+#pro>button:hover{
+    color: black;
+}
+#pro-form>h5{
+    padding: 20px;
+}
+#pro-form{
+    border-radius: 30px;
+    position: absolute;
+    top: 400px;
+    margin: 20px;
+    background-color: aliceblue;
+    height: 700px;
+    width: 500px;
+}
+#user-info>h3{
+  padding: 20px;
+}
+
+#table-2>img{
+    height: 150px;
+    width: 400px;
+}
+#table-2{
+    border-radius: 30px;
+    position: absolute;
+    top: 400px;
+    left: 800px;
+    height: 500px;
+    background-color: aliceblue;
+}
+#t-cont>img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    position: absolute;
+    left: 130px;
+    top: 100px;
+}
+#t-cont>button{
+    padding: 10px;
+    background-color:#0848e9;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    left: 300px;   
+}
+#t-cont>p{
+    position: absolute;
+    top: 270px;
+    left: 50px;
+}
+#t-cont>#three{
+    position: absolute;
+    top: 270px;
+    left: 190px;
+}
+#t-cont>#four{
+    position: absolute;
+    top: 270px;
+    left: 310px;
+}
+#t-cont>h6{
+    position: absolute;
+    font-size: 1.5rem;
+    top: 350px;
+    left: 180px;
+}
+#t-cont>#cont-tab{
+    position: absolute;
+    top: 390px;
+    left: 130px;
+}
+#t-cont>span{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    top: 420px;
+    left: 90px;
+    line-height: 3  0px;
+}
+
+/*----------table---------*/
+
+
+
+
+
+
 
 
 
