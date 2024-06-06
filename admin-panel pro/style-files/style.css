@@ -1175,3 +1175,140 @@ font-size: 4rem;
   *[dir=rtl] div.dt-container div.dt-search input {
     margin: 0 3px 0 0;
   }
+
+
+  /*Register*/
+
+  #reg-cont>h3{
+    position: absolute;
+    top: 100px;
+    left: 35%;
+    color: white;
+  }
+  #reg-cont>p{
+    position: absolute;
+    top: 150px;
+    left: 27%;
+    color: aliceblue;
+  }
+  #sign{
+    height: 550px;
+    width: 450px;
+    margin: 20px;
+    position: absolute;
+    left: 25%;
+    text-align: center;
+    background-color: aliceblue;
+  }
+  #reg-logo{
+   margin: 20px;
+    word-spacing: 30px;
+    position: absolute;
+    left: 120px;
+
+  }
+  #reg-logo>a>button{
+    border: none;
+    background-color:burlywood;
+    padding: 10px;
+    cursor: pointer;
+  }
+  #other-reg>p{
+    position: absolute;
+    top: 120px;
+    left: 25%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+ #reg-form>form>input{
+  position: absolute;
+  top: 150px;
+  left: 10px;
+  width: 80%;
+ }
+#reg-form>form>#f-1{
+  position: absolute;
+  top: 230px;
+}
+#reg-form>form>#f-2{
+  position: absolute;
+  top: 310px;
+}
+#other-reg>span{
+  position: absolute;
+  top: 390px;
+  left: 10%;
+}
+#other-reg>button{
+  padding: 20px;
+  border: none;
+  background-color: #4664af;
+  position: absolute;
+  top: 450px;
+  left: 25%;  
+  cursor: pointer;
+}
+/*logout page*/
+
+#log-cont>h3{
+  position: absolute;
+  top: 100px;
+  left: 35%;
+  color: white;
+}
+#log-cont>p{
+  position: absolute;
+  top: 150px;
+  left: 27%;
+  color: aliceblue;
+}
+#login{
+  height: 550px;
+  width: 450px;
+  margin: 20px;
+  position: absolute;
+  left: 25%;
+  text-align: center;
+  background-color: aliceblue;
+}
+#login>h3{
+  padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:600px) {
+ 
+
+}
+
