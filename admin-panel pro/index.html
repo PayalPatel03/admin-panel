@@ -25,43 +25,41 @@
             <i class="fa-solid fa-atom" style="color: #0980dc;">argon</i>
             <div class="logo">
                 <i class="fa-solid fa-desktop" style="color: #74C0FC;"></i>
-                <button for="#Dashboard">Dashboard</button>  
+                <span for="#Dashboard">Dashboard</span>  
             </div>
             <div class="logo">
                 <i class="fa-solid fa-mercury" style="color: #e6570a;"></i>
-                <button for="#Icons">Icons</button>
+                <span for="#Icons">Icons</span>
             </div>
             <div class="logo">
                 <i class="fa-solid fa-location-dot" style="color: #B197FC;"></i>
-                <button for="#Google">Google</button>
+                <span for="#Google">Google</span>
             </div>
             
             <div class="logo">
                 <i class="fa-solid fa-user" style="color: #FFD43B;"></i>
-                <button for="#Profile">Profile</button>
+                <span for="#Profile">Profile</span>
             </div>
             <div class="logo">
                 <i class="fa-solid fa-bars"></i>
-                <button for="#Table">Tables</button>
+                <span for="#Table">Tables</span>
             </div>
             <div class="logo">
                 <i class="fa-solid fa-user-nurse" style="color: #a85d5d;"></i>
-                <button for="#Register">Register</button>
+                <span for="#Register">Register</span>
             </div>
             <div class="logo">
                 <i class="fa-solid fa-person-running" style="color: #f70820;"></i>
-                <button for="#Logout">Log Out</button>
+                <span for="#Logout">Log Out</span>
             </div>
-            <hr>
-            <div class="logo">
-                <i class="fa-brands fa-product-hunt"></i>
-                <button for="#Products">Products</button>
-            </div>
-            <div class="logo">
-                <i class="fa-brands fa-space-awesome"></i>
-                <button for="#Docs">DOCS</button>
-            </div>
+            
         </div>
+        <!-- we all need a soul to realy on a shoulder to cry{
+
+            all this Comments ot and doing all this Payal Payal
+
+            wll tackell all this problems .logo on a shoule
+        } -->
 
         
 
@@ -136,6 +134,7 @@
                 <div id="chart-2"></div>
                 <div id="chart-3"></div>
                 <div id="chart-4"></div>
+           
                 
             </div>
             </div>
@@ -871,21 +870,16 @@
                         <h3>Login</h3>
                         <p>Default Credentials: test / pass</p>
                         <div id="log-form">
-                            <input type="text" placeholder=" test"/>
-                            <input type="password" placeholder="..."/>
-                            <label for="save">Save Details</label>
-                            <input type="checkbox"/>
+                            <input id="l-1" type="text" placeholder=" test"/>
+                            <input id="l-2" type="password" placeholder="..."/>
+                            <label id="l-4" for="save">Save Details</label>
+                            <input  class=l-3 type="checkbox"/>
                         </div>
+                        <button id="log-btn">Login</button>
                     </div>
-                    
                 </div>
-
-
             </div>
-            <div id="Products">Hello Products</div>
-            <div id="Docs">Hello Docs</div>
         </div>
-
     </div>
 
 
@@ -898,8 +892,11 @@
     <!------apex chart-------------->
     <script src="./dist/apexcharts.min.js"></script>
 
-    
+    <!--script table-->
 <script src="https://cdn.datatables.net/2.0.8/js/dataTables.js"></script>
+
+<!--calender js-->
+<script src="./scripts/calander.js"></script>
 
     <!-----------script file linking----->
     <script src="./script-files/script.js"></script>

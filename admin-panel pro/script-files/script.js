@@ -1,8 +1,8 @@
-$("#Icons,#Google,#Profile,#Table,#Register,#Logout,#Products,#Docs").hide();
+$("#Icons,#Google,#Profile,#Table,#Register,#Logout").hide();
 
 
-$(".logo>button").on("click",function(){
-    $("#Dashboard,#Icons,#Google,#Profile,#Table,#Register,#Logout,#Products,#Docs").hide();
+$(".logo>span").on("click",function(){
+    $("#Dashboard,#Icons,#Google,#Profile,#Table,#Register,#Logout").hide();
     $($(this).attr("for")).show();
 })
 

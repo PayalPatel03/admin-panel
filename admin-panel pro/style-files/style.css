@@ -33,7 +33,7 @@
     padding: 10px;
     cursor: pointer;
 }
-.logo>button{
+.logo>span{
     background-color: aliceblue;
     border: none;
     cursor: pointer;
@@ -1273,6 +1273,35 @@ font-size: 4rem;
 #login>h3{
   padding: 20px;
 }
+#l-1{
+  position: absolute;
+  left: 10%;
+  width: 80%;
+  top: 150px;
+}
+#l-2{
+  position: absolute;
+  left: 10%;
+  top: 240px;
+  width: 80%;
+}
+.l-3{
+  position: absolute;
+  top: 310px;
+  left: 10%;
+}
+#l-4{
+  position: absolute;
+  top: 315px;
+  left: 15%;
+}
+#log-btn{
+  padding: 15px;
+  position: absolute;
+  top: 345px;
+  left: 45%;
+  background-color: #4664af;
+}
 
 
 
@@ -1308,6 +1337,24 @@ font-size: 4rem;
 
 
 @media (max-width:600px) {
+
+  #container{
+    overflow-y: hidden;
+   }
+  #sidebar{
+    width: 200px;
+    display: none;
+    padding-top: 100px;
+    position: absolute;
+    z-index: 11;
+}
+
+#sidebar i, span{
+  font-size: small;
+  margin: 10px 0px 10px;
+}
+
+
  
 
 }
