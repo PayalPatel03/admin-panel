@@ -11,6 +11,16 @@ $(".fa-list").on("click",function(){
   $("#sidebar").toggle();
 })
 
+
+$("#closeBtn").on("click",function(){
+  if(visualViewport.width <= 600){
+     $("#sidebar").hide();
+  
+  }
+})
+
+
+
 //chart-1
 
 var options = {
@@ -132,60 +142,10 @@ var options = {
   var chart = new ApexCharts(document.querySelector("#chart-3"), options);
   chart.render();
 
-  //chart-4
-  
-  var options = {
-    series: [44, 55, 41, 17, 15],
-    chart: {
-    width: 380,
-    type: 'donut',
-  },
-  plotOptions: {
-    pie: {
-      startAngle: -90,
-      endAngle: 270
-    }
-  },
-  dataLabels: {
-    enabled: false
-  },
-  fill: {
-    type: 'gradient',
-  },
-  legend: {
-    formatter: function(val, opts) {
-      return val + " - " + opts.w.globals.series[opts.seriesIndex]
-    }
-  },
-  title: {
-    text: 'Gradient Donut with custom Start-angle'
-  },
-  responsive: [{
-    breakpoint: 480,
-    options: {
-      chart: {
-        width: 200
-      },
-      legend: {
-        position: 'bottom'
-      }
-    }
-  }]
-  };
-
-  var chart = new ApexCharts(document.querySelector("#chart-4"), options);
-  chart.render();
-
-
-  let table = new DataTable('#example');
- 
-table.on('click', 'tbody tr', function () {
-    let data = table.row(this).data();
- 
-    alert('You clicked on ' + data[0] + "'s row");
-});
-
-
+  //model-box
+  $(".fa-bell").on("click",function(){
+    $("#login").slideToggle();
+  })
 
 
 
